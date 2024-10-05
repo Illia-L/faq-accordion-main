@@ -1,0 +1,16 @@
++ explore figma file
+  + explored prototype
++ create reusable variables from Style Guide
++ import google fonts
++ implement normalization
++ build component
+  + after inspecting design desided to build mobile first
+  + move outside -> inside, top -> bottom, left -> right
++ check aggregate sizes
++ create git repo
++ create web page from repo
+- fill about section in repo
+- fill README file
+- submit solution to Frontend Mentor
+- check one not rated solution
+- check one rated solution

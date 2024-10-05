@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | FAQ accordion</title>
+
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="./styles.css"
+    />
+
+    <script src="./script.js" defer></script>
+  </head>
+  <body class="page">
+    <section class="faqs">
+      <div class="faqs-header">
+        <svg
+          class="faqs-header-icon"
+          width="24"
+          height="24"
+        >
+          <use href="./assets/images/icons.svg#icon-star"></use>
+        </svg>
+
+        <h1 class="faqs-title">FAQs</h1>
+      </div>
+
+      <ul>
+        <li class="faqs-item">
+          <div class="faqs-question-box">
+            <p class="faqs-question">
+              What is Frontend Mentor, and how will it help me?
+            </p>
+
+            <button
+              class="faqs-button-open"
+              type="button"
+            >
+              <svg
+                class="faqs-icon-open"
+                width="30"
+                height="30"
+              >
+                <use href="./assets/images/icons.svg#icon-plus"></use>
+              </svg>
+            </button>
+
+            <button
+              class="faqs-button-close hidden"
+              type="button"
+            >
+              <svg
+                class="faqs-icon-close"
+                width="30"
+                height="30"
+              >
+                <use href="./assets/images/icons.svg#icon-minus"></use>
+              </svg>
+            </button>
+          </div>
+          <p class="faqs-answer js-collapsed">
+            Frontend Mentor offers realistic coding challenges to help
+            developers improve their frontend coding skills with projects in
+            HTML, CSS, and JavaScript. It's suitable for all levels and ideal
+            for portfolio building.
+          </p>
+        </li>
+        <li class="faqs-item">
+          <div class="faqs-question-box">
+            <p class="faqs-question">Is Frontend Mentor free?</p>
+
+            <button
+              class="faqs-button-open"
+              type="button"
+            >
+              <svg
+                class="faqs-icon-open"
+                width="30"
+                height="30"
+              >
+                <use href="./assets/images/icons.svg#icon-plus"></use>
+              </svg>
+            </button>
+
+            <button
+              class="faqs-button-close hidden"
+              type="button"
+            >
+              <svg
+                class="faqs-icon-close"
+                width="30"
+                height="30"
+              >
+                <use href="./assets/images/icons.svg#icon-minus"></use>
+              </svg>
+            </button>
+          </div>
+          <p class="faqs-answer js-collapsed">
+            Yes, Frontend Mentor offers both free and premium coding challenges,
+            with the free option providing access to a range of projects
+            suitable for all skill levels.
+          </p>
+        </li>
+        <li class="faqs-item">
+          <div class="faqs-question-box">
+            <p class="faqs-question">
+              Can I use Frontend Mentor projects in my portfolio?
+            </p>
+
+            <button
+              class="faqs-button-open"
+              type="button"
+            >
+              <svg
+                class="faqs-icon-open"
+                width="30"
+                height="30"
+              >
+                <use href="./assets/images/icons.svg#icon-plus"></use>
+              </svg>
+            </button>
+
+            <button
+              class="faqs-button-close hidden"
+              type="button"
+            >
+              <svg
+                class="faqs-icon-close"
+                width="30"
+                height="30"
+              >
+                <use href="./assets/images/icons.svg#icon-minus"></use>
+              </svg>
+            </button>
+          </div>
+          <p class="faqs-answer js-collapsed">
+            Yes, you can use projects completed on Frontend Mentor in your
+            portfolio. It's an excellent way to showcase your skills to
+            potential employers!
+          </p>
+        </li>
+        <li class="faqs-item">
+          <div class="faqs-question-box">
+            <p class="faqs-question">
+              How can I get help if I'm stuck on a challenge?
+            </p>
+
+            <button
+              class="faqs-button-open"
+              type="button"
+            >
+              <svg
+                class="faqs-icon-open"
+                width="30"
+                height="30"
+              >
+                <use href="./assets/images/icons.svg#icon-plus"></use>
+              </svg>
+            </button>
+
+            <button
+              class="faqs-button-close hidden"
+              type="button"
+            >
+              <svg
+                class="faqs-icon-close"
+                width="30"
+                height="30"
+              >
+                <use href="./assets/images/icons.svg#icon-minus"></use>
+              </svg>
+            </button>
+          </div>
+          <p class="faqs-answer js-collapsed">
+            The best place to get help is inside Frontend Mentor's Discord
+            community. There's a help channel where you can ask questions and
+            seek support from other community members.
+          </p>
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>
