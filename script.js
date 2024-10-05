@@ -63,15 +63,6 @@ function expandElement(element) {
   element.style.paddingTop = 24 + 'px';
   element.style.height = (sectionHeight + 24) + 'px';
 
-  // when the next css transition finishes (which should be the one we just triggered)
-  // element.addEventListener('transitionend', function(e) {
-  //   // remove this event listener so it only gets triggered once
-  //   element.removeEventListener('transitionend', arguments.callee);
-
-  //   // remove "height" from the element's inline styles, so it can return to its initial value
-  //   element.style.height = null;
-  // });
-
   // mark the section as "currently not collapsed"
   element.classList.remove('js-collapsed');
 }
